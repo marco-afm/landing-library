@@ -20,10 +20,31 @@
     <link rel="stylesheet" href="./styles/principal.css">
     <link rel="stylesheet" href="./styles/sessao.css">
     <link rel="stylesheet" href="./styles/rodape.css">
+    <link rel="stylesheet" href="./styles/modal.css">
 </head>
 
-<body>
-    <header class="cabecalho">
+<body id="body">
+    <div id="modal">
+        <div class="modal__conteudo">
+            <div class="header__modal">
+                <h2 class="modal__titulo">Olá, Seja bem vindo(a)</h2>
+
+                <button id="fecha__modal">X</button>
+            </div>
+
+            <div class="main__modal">
+                <p class="modal__texto">Este site foi criado com o objetivo de hospedar todos os meus projetos de desenvolvimento, desde os mais simples até os mais avançados.</p>
+
+                <p class="modal__texto">Aqui você pode navegar e explorar os diversos projetos que criei ao longo do tempo.</p>
+    
+                <p class="modal__texto">Para acessar cada um deles, basta clicar nos blocos correspondentes.</p>
+            </div>
+
+            <span>Aproveite a visita! :)</span>
+        </div>
+    </div>
+    
+    <header class="cabecalho blur" id="cabecalho-id">
         <div class="header__msg">
             <p>Seja bem vindo!</p>
         </div>
@@ -68,7 +89,7 @@
         </nav>
     </header>
 
-    <main class="principal">
+    <main class="principal blur" id="principal-id">
         <section class="sessao">
             <div>
                 <h2 class="sessao__titulo">Todos os sites</h2>
@@ -335,7 +356,7 @@
         </section>
     </main>
     
-    <footer class="rodape">
+    <footer class="rodape blur" id="footer-id">
         <div class="rodape__caixa1">
             <h2 class="rodape__titulo cabecalho__titulo">
                 <a href="index.html">Landing Library</a>
@@ -358,6 +379,8 @@
         
         <p class="rodape__texto">O responsável pelo desenvolvimento do site pode ser encontrado no destino <a href="https://www.instagram.com/afm_marco?igsh=bzZuM3V3bTJxbnc0">deste link</a>. Ao clicar, você será redirecionado ao perfil do instagram dele.</p>
     </footer>
+
+    <script src="./script.js"></script>
 </body>
 
 </html>
