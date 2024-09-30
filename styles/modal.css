@@ -42,9 +42,12 @@
 #fecha__modal {
     font-size: 1.125rem;
     color: var(--branco33);
+    cursor: pointer;
 
-    background: transparent;
+    background: var(--branco10);
     border: none;
+    border-radius: 4px;
+    padding: .125rem .5rem;
 }
 
 .main__modal {
