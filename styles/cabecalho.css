@@ -1,0 +1,129 @@
+.header__msg {
+    display: flex;
+    justify-content: center;
+    padding: .5rem 1rem;
+}
+
+.header__msg p {
+    color: var(--branco66);
+}
+
+
+
+.cabecalho__conteudo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 1.25rem;
+    
+    background-color: var(--preto66);
+    padding: 1.5rem;
+}
+
+
+
+.cabecalho__titulo a {
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--branco);
+}
+
+
+
+#menu__label-out p, #menu__label-in p {
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+#menu__label-in {
+    display: flex;
+    justify-content: left;
+    padding: 1rem;
+    margin-bottom: .25rem;
+    border-bottom: 2px solid var(--preto50);
+}
+
+#menu__label-in p {
+    padding: .5rem .875rem;
+    border-radius: 4px;
+    background-color: var(--branco10);
+}
+
+#menu__input {
+    display: none;
+}
+
+#menu__input:checked~.menu__lista {
+    display: flex;
+    flex-direction: column;
+    background: var(--gradiente-bg2);
+    border-radius: 6px 0 0 6px;
+
+    width: 66vw;
+    height: 100vh;
+    padding: 0 .75rem;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+
+
+
+.menu__lista {
+    display: none;
+}
+
+.menu__link {
+    color: var(--branco);
+    text-decoration: none;
+    
+    padding: .75rem;
+    
+    padding: 1rem;
+    transition: 0.3s;
+}
+
+.menu__link:hover {
+    background-color: var(--branco10);
+    border-radius: 4px;
+}
+
+
+
+.menu__form {
+    display: inline-flex;
+    margin: 0 auto;
+}
+#pesquisar {
+    flex-grow: 1;
+    padding: .25rem 1rem;
+    border-radius: .5rem 0 0 .5rem;
+    font-family: var(--font-poppins);
+    outline: none;
+    border: none;
+}
+
+#pesquisar::placeholder {
+    color: #a9a9a9;
+}
+
+.btn-buscar {
+    color: var(--branco);
+    background-color: var(--ciano-azul);
+
+    font-size: .875rem;
+    font-weight: 500;
+
+    padding: 0 .75rem;
+
+    border: none;
+    border-radius: 0 .5rem .5rem 0;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.btn-buscar:hover {
+    background-color: var(--ciano-azul50);
+}
