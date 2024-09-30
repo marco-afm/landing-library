@@ -40,16 +40,11 @@
 }
 
 #fecha__modal {
-    grid-area: botao;
-    width: fit-content;
-    justify-self: right;
     font-size: 1rem;
     color: var(--branco33);
 
     background: transparent;
     border: none;
-    width: 24px;
-    height: 24px;
 }
 
 .main__modal {
