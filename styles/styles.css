@@ -37,4 +37,9 @@ body {
 
     color: var(--branco);
     background: var(--gradiente-bg);
+    transition: filter 0.3s ease;
+}
+
+.blur {
+    filter: blur(3px);
 }
