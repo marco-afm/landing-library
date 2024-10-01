@@ -3,6 +3,12 @@
     cursor: pointer;
 }
 
+#menu__label-out {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
 #menu__label-in {
     display: flex;
     justify-content: left;
@@ -62,4 +68,44 @@
 .menu__form {
     display: inline-flex;
     margin: 0 auto;
+}
+
+
+/* NOTEBOOK */
+@media screen and (min-width: 1025px) {
+
+    .container__menu {
+        display: flex;
+        align-items: center;
+        order: 3;
+        margin: 0 auto;
+    }
+    
+    #menu__label-out {
+        display: none;
+    }
+
+    .menu__lista {
+        display: flex;
+        gap: 1rem;
+    }
+
+    #menu__label-in {
+        display: none;
+    }
+    
+    .menu__link {
+        padding: .5rem;
+        font-size: .875rem;
+        font-weight: 400;
+        color: var(--branco);
+    }
+
+    
+
+    .menu__form {
+        order: 2;
+        width: auto;
+        margin: 0;
+    }
 }

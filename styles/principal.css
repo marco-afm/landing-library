@@ -1,3 +1,11 @@
 .principal {
     margin: 1rem;
 }
+
+
+/* NOTEBOOK */
+@media screen and (min-width: 1025px) {
+    .principal {
+        margin: 2rem 5%;
+    }
+}

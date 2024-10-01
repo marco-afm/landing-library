@@ -17,7 +17,7 @@
     
     gap: 1.5rem;
     
-    margin: 200px 1.5rem;
+    margin: 150px 1.5rem;
     padding: 1.5rem;
     
     background: var(--gradiente-bg);
@@ -65,4 +65,14 @@
 
 .modal__conteudo span {
     grid-area: span;
+}
+
+
+/* NOTEBOOK */
+@media screen and (min-width: 1025PX) {
+    .modal__conteudo {
+        margin: 150px 33%;
+        background: var(--gradiente-bg2);
+        border: 3px solid var(--ciano-verde66);
+    }
 }

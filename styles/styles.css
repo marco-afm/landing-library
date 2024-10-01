@@ -43,3 +43,11 @@ body {
 .blur {
     filter: blur(3px);
 }
+
+
+/* NOTEBOOK */
+@media screen and (min-width: 1025px) {
+    body {
+        background: var(--gradiente-bg2);
+    }
+}

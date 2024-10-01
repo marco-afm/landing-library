@@ -48,6 +48,7 @@
     min-width: 175px;
     min-height: 100px;
     padding: .75rem;
+    flex-grow: 1;
 
     text-decoration: none;
 
@@ -90,7 +91,8 @@
     width: auto;
     height: 5px;
     border-radius: 99px;
-    background-color: var(--branco33);
+    /* background-color: var(--branco33); */
+    background-color: transparent;
 }
   
 .sessao__lista::-webkit-scrollbar-track {
@@ -98,7 +100,36 @@
 }
   
 .sessao__lista::-webkit-scrollbar-thumb {
-    background-color: var(--branco66);
+    /* background-color: var(--branco66); */
+    background-color: transparent;
     border-radius: 99px;
     border: none;
+}
+
+
+/* NOTEBOOK */
+@media screen and (min-width: 1025px) {
+
+    .sessao__titulo {
+        font-size: 1.5rem;
+    }
+    
+    .sessao__item {
+        min-width: 300px;
+        min-height: 175px;
+        padding: 1rem;
+    }
+
+    .sessao__item h3 {
+        font-size: 1.125rem;
+    }
+
+    .sessao__item h4 {
+        font-size: .75rem;
+    }
+
+    .sessao__item span {
+        font-size: .875rem;
+        color: var(--preto50);
+    }
 }

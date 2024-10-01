@@ -22,7 +22,7 @@
 
 
 
-.cabecalho__titulo a {
+.cabecalho__titulo a, .rodape__titulo a {
     font-size: 1.5rem;
     font-weight: 500;
     text-decoration: none;
@@ -61,4 +61,25 @@
 
 .btn-buscar:hover {
     background-color: var(--ciano-azul50);
+}
+
+
+/* NOTEBOOK */
+@media screen and (min-width: 1025px) {
+    .cabecalho__conteudo {
+        align-items: center;
+        padding: 2rem 5% 1rem 5%;
+        background-color: var(--preto66);
+    }
+
+    .cabecalho__titulo a {
+        width: 100%;
+        font-size: 1.75rem;
+        font-weight: 600;
+        order: 1;
+    }
+    
+    #pesquisar {
+        width: 33vw;
+    }
 }
