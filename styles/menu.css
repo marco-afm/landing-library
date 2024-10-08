@@ -124,3 +124,15 @@
         margin: 0;
     }
 }
+
+
+/* DESKTOP */
+@media screen and (min-width: 1440px) {
+    .container__menu {
+        order: 2;
+    }
+
+    .menu__link {
+        font-size: 1.125rem;
+    }
+}

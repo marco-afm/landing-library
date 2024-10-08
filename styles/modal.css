@@ -85,3 +85,31 @@
         border: 3px solid var(--ciano-verde66);
     }
 }
+
+
+/* DESKTOP */
+@media screen and (min-width: 1440px) {
+    .modal__conteudo {
+        margin: 17.5% 33%;
+        padding: 2rem;
+    }
+
+    .modal__titulo {
+        font-size: 1.75rem;
+    }
+
+    #fecha__modal {
+        font-size: 1.75rem;
+        border-radius: 4px;
+        padding: .25rem .875rem;
+    }
+    
+    .modal__texto {
+        font-size: 1.325rem;
+        line-height: 1.75rem;
+    }
+
+    .modal__conteudo span {
+        font-size: 1.5rem;
+    }
+}

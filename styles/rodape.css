@@ -47,7 +47,7 @@
     font-size: .625rem;
     font-weight: 300;
     text-align: center;
-    padding: 2rem 0 1rem 0;    
+    padding: 2rem 0 1rem 0;   
 }
 
 
@@ -94,5 +94,25 @@
 
     .rodape__titulo a {
         font-size: 1.5rem;
+    }
+}
+
+
+/* DESKTOP */
+@media screen and (min-width: 1440px) {
+    .rodape {
+        padding: 3rem 3%;
+    }
+
+    .rodape__titulo a {
+        font-size: 2rem;
+    }
+
+    .rodape__link__pagina {
+        font-size: 1.125rem;
+    }
+
+    .rodape__texto {
+        font-size: 1rem;
     }
 }

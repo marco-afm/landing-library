@@ -17,3 +17,15 @@
         margin: 2rem 5%;
     }
 }
+
+
+/* DESKTOP */
+@media screen and (min-width: 1440px) {
+    .principal {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        
+        margin: 3rem 3%;
+    }
+}

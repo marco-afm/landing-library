@@ -99,3 +99,46 @@
         width: 33vw;
     }
 }
+
+
+/* DESKTOP */
+@media screen and (min-width: 1440px) {
+    .header__msg {
+        display: flex;
+        justify-content: center;
+        padding: .75rem 1.25rem;
+    }
+    
+    .header__msg p {
+        font-size: 1.5rem;
+    }
+
+
+    .cabecalho__conteudo {
+        padding: 2.5rem 3%;
+    }
+
+    .cabecalho__titulo a {
+        order: 1;
+        font-size: 2.25rem;
+    }    
+
+    #pesquisar {
+        width: 20vw;
+        padding: .5rem 1.125rem;
+        font-size: 1.25rem;
+        font-weight: 600;
+        border-radius: .5rem 0 0 .5rem;
+    }
+
+    #pesquisar::placeholder {
+        font-size: 1.25rem;
+        font-weight: 400;
+    }
+
+    .btn-buscar {
+        font-size: 1.25rem;
+        font-weight: 700;
+        padding: .25rem 1rem;
+    }
+}
