@@ -21,7 +21,7 @@
     padding: 1.5rem;
     
     background: var(--gradiente-bg);
-    border-radius: 6px;
+    border-radius: .5rem;
     border: 2px solid var(--ciano-verde);
 }
 

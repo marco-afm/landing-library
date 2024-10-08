@@ -97,6 +97,11 @@
     
     #pesquisar {
         width: 33vw;
+        border-radius: .325rem 0 0 .325rem;
+    }
+
+    .btn-buscar {
+        border-radius: 0 .325rem .325rem 0;
     }
 }
 
