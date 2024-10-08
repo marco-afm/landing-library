@@ -32,7 +32,7 @@
     flex-direction: column;
     background: var(--gradiente-bg2);
     border-radius: 6px 0 0 6px;
-
+    
     width: 66vw;
     height: 100vh;
     padding: 0 .75rem;
@@ -71,6 +71,23 @@
 }
 
 
+/* TABLET */
+@media screen and (min-width: 769px) {
+    .container__menu {
+        order: 3;
+    }
+
+    #menu__input:checked~.menu__lista {
+        width: 33vw;
+    }
+
+    .menu__form {
+        order: 2;
+        width: 50%;
+    }   
+}
+
+
 /* NOTEBOOK */
 @media screen and (min-width: 1025px) {
 
@@ -84,7 +101,7 @@
     #menu__label-out {
         display: none;
     }
-
+    
     .menu__lista {
         display: flex;
         gap: 1rem;
@@ -100,8 +117,6 @@
         font-weight: 400;
         color: var(--branco);
     }
-
-    
 
     .menu__form {
         order: 2;

@@ -48,7 +48,6 @@
     min-width: 175px;
     min-height: 100px;
     padding: .75rem;
-    flex-grow: 1;
 
     text-decoration: none;
 
@@ -104,6 +103,23 @@
     background-color: transparent;
     border-radius: 99px;
     border: none;
+}
+
+
+/* TABLET */
+@media screen and (min-width: 769px) {
+    .sessao__item {
+        min-width: 200px;
+        min-height: 125px;
+    }
+
+    .sessao__item h4 {
+        font-size: .75rem;
+    }
+
+    .sessao__item span {
+        font-size: .875rem;
+    }
 }
 
 

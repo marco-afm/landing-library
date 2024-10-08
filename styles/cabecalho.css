@@ -64,6 +64,19 @@
 }
 
 
+/* TABLET */
+@media screen and (min-width: 769px) {
+    .cabecalho__conteudo {
+        align-items: center;
+        padding: 1.5rem 3%;
+    }
+    
+    .cabecalho__titulo {
+        order: 1;
+    }
+}
+
+
 /* NOTEBOOK */
 @media screen and (min-width: 1025px) {
     .cabecalho__conteudo {
@@ -72,11 +85,14 @@
         background-color: var(--preto66);
     }
 
+    .cabecalho__titulo {
+        order: 1;
+    }
+    
     .cabecalho__titulo a {
         width: 100%;
         font-size: 1.75rem;
         font-weight: 600;
-        order: 1;
     }
     
     #pesquisar {

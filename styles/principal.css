@@ -3,6 +3,14 @@
 }
 
 
+/* TABLET */
+@media screen and (min-width: 769px) {
+    .principal {
+        margin: 1.5rem 3%;
+    }
+}
+
+
 /* NOTEBOOK */
 @media screen and (min-width: 1025px) {
     .principal {
